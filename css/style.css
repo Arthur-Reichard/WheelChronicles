@@ -1,0 +1,21 @@
+@import url("components/card.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+
+body {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #f8f8f8;
+    font-family: 'Open Sans', sans-serif;
+    color: #224738;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: 1fr; 
+    }
+}

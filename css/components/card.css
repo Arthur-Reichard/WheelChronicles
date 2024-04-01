@@ -1,0 +1,35 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    color: #224738;
+    box-shadow: 0 6px 12px rgba(34, 71, 56, 0.2);
+    padding: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid #224738;
+    transition: transform 0.3s ease, box-shadow 0.5s ease, border-color 0.3s ease;
+    transform: scale(1); 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 12px 24px rgba(34, 71, 56, 0.3);
+    border-color: #EDB944; 
+}
+
+.card h2 {
+    color: #EDB944;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #333;
+    font-size: 18px;
+}
